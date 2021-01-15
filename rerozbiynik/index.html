@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--Эта неведомая дичь создана за 20 минут!-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ReRozbiynik - Подключить</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="icon.png" type="image/png">
+</head>
+<body>
+	<section>
+	<center>
+		<hr>
+		<h1><b class="logo_text">ReRozbiynik</b> Captcha</h1>
+		<h2>Надежная защита от розбiйников на вашем сайте</h2>
+		<hr>
+		<h1>Подключите <b class="logo_text">ReRozbiynik</b> на свой сайт:</h1>
+		<h3 class="code" onclick="">
+			&lt;script src="http://waveteams.github.io/rerozbiynik/rerozbiynik.js"&gt;&lt;/script&gt;
+		</h3>
+		<h4>Код выше небоходимо вставить после &lt;/body&gt; для корректного функционирования <b class="logo_text">ReRozbiynik</b></h4>
+		<h3 class="code" onclick="">
+			&lt;button onclick="captcha('grant', 'deny')"&gt;&lt;/button&gt;
+		</h3>
+		<h4>Это код кнопки, которая вызывает капчу. Замените grant на адрес страницы, которая должна будет открыта если вы разгадали капчу, а deny на адрес страницы, которая должна будет открыта если вы не разгадали капчу. Символ @ означает, что перенаправления не будет, а будет показано уведомление.</h4>
+		<button onclick="captcha('solved.html', '@')">Проверка сервиса</button>
+	</center>
+	</section>
+	<footer>
+		<h3>Ⓒ 2021 WaveTeam</h3>
+	</footer>
+</body>
+</html>
+
+<script src="rerozbiynik.js"></script>
