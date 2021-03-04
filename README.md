@@ -1,8 +1,4 @@
-# waveteams.github.io
-
-[ReRozbiynik](http://waveteams.github.io/rerozbiynik)
-
-[QSKRIPT](http://waveteams.github.io/qsk)
+# Портал разработки MineWave
 
 [WavePack++](http://waveteams.github.io/wavepack++)
 
